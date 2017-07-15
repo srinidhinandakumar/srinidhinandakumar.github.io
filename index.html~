@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Welcome | SN</title>
-	<link rel="stylesheet" href="index1.css">
+	<link rel="stylesheet" href="index.css">
 	<link rel="icon" href="images/favicon.ico" type="imag/x-icon">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
@@ -115,7 +115,7 @@
 					 <span class="sub1">Aug 2016 - Mar 2017<br></span>
 					 <span class="sub box-right">I developed and managed the conference website. I was also responsible for coordinating the events and presentations during the conference.</span>
 				      </p>
-				      <a href="https://asia-sp.in" class="secondary-content"><i class="material-icons">grade</i></a>
+				      <a href="https://asia-sp.in" class="secondary-content"><i class="fa fa-window-maximize" aria-hidden="true"></i> ></a>
 				    </li>
 				    <li class="collection-item avatar">
 				      <img src="images/wipro.jpg" alt="" class="circle">
