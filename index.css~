@@ -1,0 +1,79 @@
+html, body {
+            height: 100%;
+            margin: 0;
+            width:100%;
+            font: garamond, serif;
+}
+hr { 
+	    display: block;
+	    margin-top: 0.5em;
+	    margin-bottom: 0.5em;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-style: inset;
+	    border-width: 1px;
+} 
+.fixed {
+	    position: fixed;
+	    top:0; 
+	    background-color:rgba(0,0,0,0.8);
+	    
+}
+.wrapper {
+            min-height: 100%; 
+}
+a:link {
+	color:rgba(0,0,0,0.8);
+}
+a:hover {
+
+	color:rgba(0,0,0,1);
+	
+}
+a:active{
+	color:rgba(0,0,0,0.8);
+	background-color:rgba(0,0,0,0.8);
+}
+a:visited{
+	color:rgba(0,0,0,0.8);
+	
+}
+hr{
+	color:rgba(0,210,255,0.8);
+}
+#navigation{
+	background-color:rgba(0,0,0,0.8);
+	font-size: 25px;
+	width:100%;
+	color: rgba(255,255,255,1);  
+            
+}
+#about{
+	background-color: rgba(0,0,0,0.8);
+}
+#about-top{
+	
+	font-size: 30px;
+	color:rgba(255,255,255,1);
+}
+#about-content{
+	font-size: 20px;
+	color:rgba(255,255,255,1);
+}
+#about-research-top{
+	
+	font-size: 25px;
+	color:rgba(255,255,255,1);
+}
+#about-research{
+	
+	font-size: 20px;
+	color:rgba(255,255,255,1);
+}
+#education{
+	background-color: rgba(0,0,0,0.8);
+}
+#edu{
+	font-size: 30px;
+	color:rgba(255,255,255,1);
+}

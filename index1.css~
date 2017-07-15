@@ -1,0 +1,55 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	
+}
+nav{
+	background-color: #1e365c !important;
+	color: #27c4c1 !important;
+}
+.changeColor{
+
+	background-color: #1e365c;
+	color: #27c4c1;
+}
+.fullpage {
+	min-height: 100%;
+	
+}
+.box{
+	margin-left: 3%;
+}
+.box-right{
+
+	margin-right:3%;
+}
+
+.fix{
+	position: fixed;
+	float: right;
+	
+}
+affix {
+  position: fixed;
+  top: 40px;
+}
+.pin-top {
+  position: relative;
+}
+.pinned {
+  position: fixed !important;
+}
+.sub{
+
+	color:#bbbbbb;
+}
+.sub1{
+	color:#444;
+}
+#left{
+	float:left;
+}
+#right{
+	
+}
+
