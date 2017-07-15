@@ -12,9 +12,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
+	<div id="nav_div">
 	<nav>
 	    <div class="nav-wrapper">
-	      <a href="http://srinidhinandakumar.github.io" class="brand-logo box changeColor"><center>SRINIDHI NANDAKUMAR</center></a>
+	      <div id="title_nav">
+	      	<a href="http://srinidhinandakumar.github.io" class="brand-logo box changeColor"><center>Srinidhi's Page</center></a>
+	      </div>
 	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      <ul class="right hide-on-med-and-down">
 		<li><a href="#about">About</a></li>
@@ -24,6 +27,9 @@
 		<li><a href="#interests">Interests</a></li>
 		<li><a href="#contact">Contact</a></li>
 	      </ul>
+	   </div>
+	</nav>
+	</div>
 	      <ul id="mobile-demo" class="side-nav">
     		<li>
     			<div class="user-view">
@@ -43,8 +49,7 @@
 		
   	      </ul>
       
-	    </div>
-	</nav>
+	    
 	<div class="box">
 	<div class="row">
 		<div class="col s12 m9 l10" id="left">
@@ -55,7 +60,7 @@
 				</div>
 				<div>
 					<p class="flow-text box" >
-					I am a first year masters student pursuing Master of Science in Computer Science from University of Southern California, Los Angeles, USA.<br>
+					My name is Srinidhi Nandakumar. I am a computer engineer who graduated in May 2017 from Sardar Vallabhbhai National Institue of technology, Surat, India.<br>
 					I am a Tamilian and from Mumbai, India.
 					</p>
 				</div>
@@ -115,7 +120,7 @@
 					 <span class="sub1">Aug 2016 - Mar 2017<br></span>
 					 <span class="sub box-right">I developed and managed the conference website. I was also responsible for coordinating the events and presentations during the conference.</span>
 				      </p>
-				      <a href="https://asia-sp.in" class="secondary-content"><i class="fa fa-window-maximize" aria-hidden="true"></i></a>
+				      <a href="https://asia-sp.in" class="secondary-content"><i class="fa fa-window-maximize fa-lg" aria-hidden="true"></i></a>
 				    </li>
 				    <li class="collection-item avatar">
 				      <img src="images/wipro.jpg" alt="" class="circle">
@@ -165,15 +170,15 @@
 			<div class="section scrollspy" id="interests">
 				<div class="changeColor">
 					<h3 style="margin-left:5%;">Interests</h3>
-				</div>
-				<span class="box">
+				</div><br>
+				<div class="box">
 					<h5>Research Interests:</h5>
-					<br> Machine learning, Natural Language Processing, Artificial Intelligence.
-				</span>	
-				<br><br>
-				<span class="box">
+					 Machine learning, Natural Language Processing, Artificial Intelligence.
+				</div>	
+				<br>
+				<div class="box">
 					<h5>Technical Skills</h5>
-				</span>
+				</div>
 				<div class="row">
 					<div class="col s12 m4 l4">
 						<div class="collection">
@@ -205,10 +210,10 @@
 					
 					
 				<br>
-				<span class="box">
+				<div class="box">
 					<h5>Other Interests:</h5> 
-					<br>Listening to music and singing along, painting, craft work, swimming, binge watching TV shows!
-				</span>
+					Listening to music and singing along, painting, craft work, swimming, binge watching TV shows!
+				</div>
 			</div>
 			<div class="section scrollspy" id="contact">
 				
@@ -219,16 +224,16 @@
 				<p class="flow-text box box-right" >If you like my work, or have an idea to discuss, please feel free to write to me!<br></p>
 				<div class="box">
 				<div class="row">
-					<div class="col s1 m1 l1"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>  </div>
-					<div class="col s11 m11 l11">srinidhi.enkay@gmail.com   |   snandaku@usc.edu</div>
+					<div class="col s1 m1 l1" ><i class="fa fa-envelope fa-2x" id="contact_icon1" aria-hidden="true"></i>  </div>
+					<div class="col s11 m11 l11">srinidhi.enkay@gmail.com | snandaku@usc.edu</div>
 					<br><br>
-					<div class="col s1 m1 l1"><i class="fa fa-github fa-2x" aria-hidden="true"></i> </div>
+					<div class="col s1 m1 l1"><i class="fa fa-github fa-2x"  id="contact_icon2"aria-hidden="true"></i> </div>
 					<div class="col s11 m11 l11"><a href="http://github.com/srinidhinandakumar">http://github.com/srinidhinandakumar</a></div>
 					<br><br>
-					<div class="col s1 m1 l1"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></div>
-					<div class="col s11 m11 l11"><a href="http://linkedin.com/srinidhinandakumar">http://linkedin.com/srinidhinandakumar</a></div>
+					<div class="col s1 m1 l1"><i class="fa fa-linkedin fa-2x" id="contact_icon3" aria-hidden="true"></i></div>
+					<div class="col s11 m11 l11"><a href="http://linkedin.com/in/srinidhinandakumar">http://linkedin.com/srinidhinandakumar</a></div>
 					<br><br>
-					<div class="col s1 m1 l1"><i class="fa fa-window-maximize fa-2x" aria-hidden="true"></i>  </div>
+					<div class="col s1 m1 l1"><i class="fa fa-window-maximize fa-2x" id="contact_icon4" aria-hidden="true"></i>  </div>
 					<div class="col s11 m11 l11"><a href="http://srinidhinandakumar.github.io">http://srinidhinandakumar.github.io</a></div>
 				</div>
 				</div>
@@ -259,21 +264,61 @@
 			$('.collapsible').collapsible();
 			$(window).scroll(function(){
 			
-				console.log($(window).scrollTop());
+				//console.log($(window).scrollTop());
 				if($(window).scrollTop()>0){
 					$("#check").addClass("pinned");
 					$("#check").removeClass("pin-top");
+					if($(window).width()<400)
+					{
+						$("#nav_div").addClass("navbar-fixed");
+					}
+					else
+						$("#nav_div").removeClass("navbar-fixed");
 					
 				}
 				else
 					$("#check").removeClass("pinned");
 					$("#check").addClass("pin-top");
+					if($(window).width()<400)
+					{
+						$("#nav_div").addClass("navbar-fixed");
+					}
+					else
+					$("#nav_div").removeClass("navbar-fixed");
+					
 			});
 			
-			var pageHeight=$(window).height();
-			console.log(pageHeight);
-		
-		
+			var width=$(window).width();
+			//console.log(width);
+			if($(window).width()<400)
+			{
+				//console.log($(window).width());
+				
+				$("#title_nav").addClass("fontChange");
+				$("#contact_icon1").removeClass("fa-2x");
+				$("#contact_icon1").addClass("fa-lg");
+				$("#contact_icon2").removeClass("fa-2x");
+				$("#contact_icon2").addClass("fa-lg");
+				$("#contact_icon3").removeClass("fa-2x");
+				$("#contact_icon3").addClass("fa-lg");
+				$("#contact_icon4").removeClass("fa-2x");
+				$("#contact_icon4").addClass("fa-lg");
+				
+				
+			}
+			else
+			{
+				
+				$("#title_nav").removeClass("fontchange");
+				$("#contact_icon1").removeClass("fa-lg");
+				$("#contact_icon1").addClass("fa-2x");
+				$("#contact_icon2").removeClass("fa-lg");
+				$("#contact_icon2").addClass("fa-2x");
+				$("#contact_icon3").removeClass("fa-lg");
+				$("#contact_icon3").addClass("fa-2x");
+				$("#contact_icon4").removeClass("fa-lg");
+				$("#contact_icon4").addClass("fa-2x");
+			}
 		});
 		
 	</script>

@@ -52,4 +52,11 @@ affix {
 #right{
 	
 }
+.fontChange{
 
+	font: 20px !important;
+}
+.fixed-nav{
+
+	position:fixed;
+	top:0;
