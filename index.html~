@@ -268,7 +268,7 @@
 				if($(window).scrollTop()>0){
 					$("#check").addClass("pinned");
 					$("#check").removeClass("pin-top");
-					if($(window).width()<400)
+					if($(window).width()<600)
 					{
 						$("#nav_div").addClass("navbar-fixed");
 					}
@@ -279,7 +279,7 @@
 				else
 					$("#check").removeClass("pinned");
 					$("#check").addClass("pin-top");
-					if($(window).width()<400)
+					if($(window).width()<600)
 					{
 						$("#nav_div").addClass("navbar-fixed");
 					}
